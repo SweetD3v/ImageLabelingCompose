@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ImageLabelingCompose</string>
+    <string name="header_today">Today</string>
+    <string name="header_yesterday">Yesterday</string>
+    <string name="nav_timeline">Timeline</string>
+    <string name="nav_albums">Albums</string>
+    <string name="no_media_title">No media</string>
+    <string name="no_media_cd">No media</string>
+    <string name="unselect_all">Unselect all</string>
+    <string name="select_all">select all</string>
+    <string name="drop_down_cd">Drop down</string>
+    <string name="move_album_to_trash">Move album to trash</string>
+    <string name="favorites">Favorites</string>
+    <string name="trash">Trash</string>
+    <string name="settings_title">Settings</string>
+    <string name="nav_labels">Labels</string>
+    <string name="something_went_wrong_try_again">Something went wrong. Please try again.</string>
+    <string name="back_cd">back</string>
+
+    <plurals name="item_count">
+        <item quantity="one">%s item</item>
+        <item quantity="other">%s items</item>
+    </plurals>
+</resources>
