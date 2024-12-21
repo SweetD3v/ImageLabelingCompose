@@ -110,7 +110,6 @@ fun NavigationComp(
                 .apply { labelName = argumentLabelName }
             viewModel.attachToLifecycle()
             LabelsViewScreen(
-                paddingValues = paddingValues,
                 labelName = argumentLabelName,
                 labelState = viewModel.labelsGroupedState,
                 navigateUp = navPipe::navigateUp

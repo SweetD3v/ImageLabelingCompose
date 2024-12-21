@@ -46,7 +46,6 @@ class MainActivity : ComponentActivity() {
     private val labelsViewModel: LabelsViewModel by viewModels()
 
     private var navigatedToSettings: Boolean = false
-    private var askCount = 0
 
     private val permissionsLauncher: ActivityResultLauncher<Array<String>> =
         registerForActivityResult(ActivityResultContracts.RequestMultiplePermissions()) { grantRes ->

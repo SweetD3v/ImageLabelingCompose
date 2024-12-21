@@ -60,7 +60,6 @@ import kotlinx.coroutines.isActive
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun LabelsScreen(
-    paddingValues: PaddingValues,
     labelName: String,
     labelState: StateFlow<LabelsGroupState>,
     navigateUp: () -> Unit,
